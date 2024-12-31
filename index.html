@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    <div class="main">
+    <div class="main" id="main">
         <div class="navbar">
             <img src="" alt="">
             <button>Home</button>
             <button>Contact Us</button>
-            <button>Login</button>
-            <button>Logout</button>
-            <button>Manage</button>
+            <button id="login" onclick="logged()">Login</button>
+            <button class="afterlogin" id="logout" hidden>Logout</button>
+            <button class="afterlogin" id="manage" hidden>Manage</button>
         </div>
         <div class="container1">
 
@@ -32,7 +32,7 @@
                     <li>textbooks</li>
                 </ul>
             </div>
-            <div class="container">
+            <div class="container" id="container">
                 <div class="bookcard">
                     <img src="" alt="">
                     <p>book name</p>
@@ -92,6 +92,18 @@
             </div>
         </div>
     </div>
+    <div class="container2" id="container2" >
+            <form action="" onsubmit="event.preventDefault()"></form>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="pwd" placeholder="Password">
+            <input type="submit" onclick="authenticate()" value="Login" >
+
+
+    </div>
+
+
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

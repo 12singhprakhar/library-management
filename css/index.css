@@ -35,8 +35,31 @@ ul li{
     width: 50%;
     display:flex;
     flex-wrap: wrap;
-    margin-right: 20%;
+
 }
 .bookcard{
     width: 20%;
+}
+
+.afterloginbtn{
+    display: block;
+}
+
+.container2{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 25%;
+    height: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    gap:10px;
+    position: fixed;
+    top:20%;
+    right: 0;
+    background-color: antiquewhite;
+
 }
