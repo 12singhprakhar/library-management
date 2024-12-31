@@ -1,0 +1,42 @@
+.navbar{
+    margin:0px 10px 10px 0px;
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+
+
+.genre{
+    width: 20%;
+    border: 2px solid black ;
+    border-left: 0px;
+}
+ul li{
+    list-style: none;
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 50%;
+
+}
+.container1{
+    display: flex;
+    gap: 15%;
+}
+
+
+
+
+.container{
+    float: right;
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: 20%;
+}
+.bookcard{
+    width: 20%;
+}
