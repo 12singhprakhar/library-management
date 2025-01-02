@@ -1,3 +1,8 @@
+body{
+    background-image: url(./img/gallary.jpg);
+    background-size:cover;
+}
+
 .navbar{
     margin:0px 10px 10px 0px;
     width: 100%;
@@ -6,6 +11,14 @@
     display: flex;
     gap: 10px;
     justify-content: right;
+    background-color: rgb(82, 65, 35);
+    
+}
+
+.navbar button{
+    border-radius: 15px;
+    width: 80px;
+    height: 50px;
 }
 
 
@@ -13,6 +26,7 @@
     width: 20%;
     border: 2px solid black ;
     border-left: 0px;
+    background-color: rgb(79, 55, 34);
 }
 ul li{
     list-style: none;
@@ -20,6 +34,7 @@ ul li{
     margin-right: 10px;
     margin-top: 5px;
     width: 50%;
+    background-color: beige;
 
 }
 .container1{
@@ -28,18 +43,69 @@ ul li{
 }
 
 
-
-
 .container{
-    float: right;
-    width: 50%;
-    display:flex;
+    width:;
+    
+    display: flex;
+    justify-content:center;
     flex-wrap: wrap;
+    
+    
+    
+}
+
+.card{
+    background: rgb(247, 241, 231);
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+
 
 }
-.bookcard{
-    width: 20%;
+
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
 }
+
+.img-1{   
+    background-image: url(../img/ji.jpg);
+}
+
+.img-2{   
+    background-image: url(../img/kamla.jpg);
+}
+.img-3{   
+    background-image: url(../img/gitanjali.jpg);
+}
+
+.img-4{   
+    background-image: url(../img/apj.jpg);
+}
+
+.img-5{   
+    background-image: url(../img/mistake.jpg);
+}
+.img-6{   
+    background-image: url(../img/mocking.jpg);
+}
+
+
+
+.card p{
+    padding: 0;
+}
+
+.card:hover{
+    background-color: rgb(62,65,67);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: all 1s ease;
+}
+
 
 .afterloginbtn{
     display: block;
