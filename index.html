@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LibraryManagement</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index1.css">
 </head>
 
 <body>
     <div class="main" id="main">
-        <div class="navbar">
+        <nav>
             <img src="" alt="">
-            <button>Home</button>
-            <button>Contact Us</button>
+            <button id="home">Home</button>
+            <button id="contact">Contact Us</button>
             <button id="login" onclick="logged()">Login</button>
             <button class="afterlogin" id="logout" hidden>Logout</button>
             <button class="afterlogin" id="manage" onclick="manage()" hidden>Manage</button>
-        </div>
+        </nav>
         <div class="container1" id="mainpage">
 
 
@@ -105,8 +105,8 @@
         <table>
             <thead>
                 <tr>
-                    <th>Book Name</th>
                     <th>Image</th>
+                    <th>Book Name</th>
                     <th>Author Name</th>
                     <th>Rating</th>
                     <th>Genre</th>
@@ -119,6 +119,7 @@
     </div>
 
     <div class="container4" id="addbookblock">
+        <center><h3>Book Detials</h3></center>
         <label for="">Book Name</label>
         <input type="text" id="addinput1">
         <label for="">Cover Photo</label>
@@ -134,7 +135,10 @@
 
     </div>
 
-
+    <div id="contactus">
+        <p>Prakhar Singh- <span>12singhprakhar@gmail.com</span></p>
+        <p>Prince Lakhra- <span>princelakhra17@gmail.com</span></p>
+    </div>
 
     <script src="./js/index.js"></script>
 </body>
