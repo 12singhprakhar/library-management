@@ -34,8 +34,12 @@ function authenticate(){
     }
     else{
         alert("Wrong credentials");
-    }
-
-
-    
+    } 
 }
+
+
+
+
+
+ 
+
