@@ -16,9 +16,9 @@
             <button>Contact Us</button>
             <button id="login" onclick="logged()">Login</button>
             <button class="afterlogin" id="logout" hidden>Logout</button>
-            <button class="afterlogin" id="manage" hidden>Manage</button>
+            <button class="afterlogin" id="manage" onclick="manage()" hidden>Manage</button>
         </div>
-        <div class="container1">
+        <div class="container1" id="mainpage">
 
 
             <div class="genre">
@@ -91,11 +91,46 @@
         </div>
     </div>
     <div class="container2" id="container2" >
-            <form action="" onsubmit="event.preventDefault()"></form>
+
             <input type="text" id="username" placeholder="Username">
             <input type="password" id="pwd" placeholder="Password">
             <input type="submit" onclick="authenticate()" value="Login" >
+        
 
+    </div>
+
+    <div class="container3" id="manageBox">
+        <button id="addBook">Add Books</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Book Name</th>
+                    <th>Image</th>
+                    <th>Author Name</th>
+                    <th>Rating</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container4" id="addbookblock">
+        <label for="">Book Name</label>
+        <input type="text" id="addinput1">
+        <label for="">Cover Photo</label>
+        <input type="file" id="addinput2">
+        <label for="">Author</label>
+        <input type="text" id="addinput3">
+        <label>Rating</label>
+        <input type="number" id="addinput4">
+        <label>Genre</label>
+        <input type="text" id="addinput5">
+        <button onclick="addBook()">ok</button>
+        <button onclick="goBack()">back</button>
 
     </div>
 
