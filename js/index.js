@@ -471,7 +471,7 @@ homebtn.addEventListener('click',()=>{
 })
 
 contactbtn.addEventListener('click',(event)=>{
-    contactblock.style.display="block";
+    contactblock.style.display="flex";
     managebox.style.display='none';
     mainpage.style.display='flex';
     event.preventDefault();
