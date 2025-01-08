@@ -12,7 +12,7 @@ let bookset=
       "bookName": "1984",
       "authorName": "George Orwell",
       "rating": 4.7,
-      "coverPhoto": "https://example.com/1984.jpg",
+      "coverPhoto": "./img/Img/Img/GeorgOrwell1984.jpeg",
       "genre": "Dystopian",
       "isEditing":false
     },
@@ -100,7 +100,7 @@ let bookset=
       "bookName": "The Fellowship of the Ring",
       "authorName": "J.R.R. Tolkien",
       "rating": 4.8,
-      "coverPhoto": "https://example.com/fellowshipofthering.jpg",
+      "coverPhoto": "./img/Img/Img/Thelordofthering.jpg",
       "genre": "Fantasy",
       "isEditing":false
     },
@@ -108,7 +108,7 @@ let bookset=
       "bookName": "The Lion, the Witch and the Wardrobe",
       "authorName": "C.S. Lewis",
       "rating": 4.7,
-      "coverPhoto": "https://example.com/thelionthewitchandthewardrobe.jpg",
+      "coverPhoto": "./img/Img/Img/ThewitchandtheWar.jpeg",
       "genre": "Fantasy",
       "isEditing":false
     },
@@ -132,7 +132,7 @@ let bookset=
       "bookName": "Gone Girl",
       "authorName": "Gillian Flynn",
       "rating": 4.5,
-      "coverPhoto": "https://example.com/gonegirl.jpg",
+      "coverPhoto": "./img/Img/Img/GoneGirl.jpeg",
       "genre": "Thriller",
       "isEditing":false
     },
@@ -140,7 +140,7 @@ let bookset=
       "bookName": "The Girl with the Dragon Tattoo",
       "authorName": "Stieg Larsson",
       "rating": 4.5,
-      "coverPhoto": "https://example.com/thegirlwiththedragontattoo.jpg",
+      "coverPhoto": "./img/Img/Img/ThewiththeDragontattoo.jpeg",
       "genre": "Thriller",
       "isEditing":false
     },
@@ -148,7 +148,7 @@ let bookset=
       "bookName": "The Shining",
       "authorName": "Stephen King",
       "rating": 4.4,
-      "coverPhoto": "https://example.com/theshining.jpg",
+      "coverPhoto": "./img/Img/Img/Theshining.jpeg",
       "genre": "Horror",
       "isEditing":false
     },
@@ -156,7 +156,7 @@ let bookset=
       "bookName": "Dracula",
       "authorName": "Bram Stoker",
       "rating": 4.3,
-      "coverPhoto": "https://example.com/dracula.jpg",
+      "coverPhoto": "./img/Img/Img/Dracula.jpeg",
       "genre": "Horror",
       "isEditing":false
     },
@@ -164,7 +164,7 @@ let bookset=
       "bookName": "Frankenstein",
       "authorName": "Mary Shelley",
       "rating": 4.2,
-      "coverPhoto": "https://example.com/frankenstein.jpg",
+      "coverPhoto": "./img/Img/Img/Frankenstein.jpeg",
       "genre": "Horror",
       "isEditing":false
     },
@@ -172,7 +172,7 @@ let bookset=
       "bookName": "The Exorcist",
       "authorName": "William Peter Blatty",
       "rating": 4.1,
-      "coverPhoto": "https://example.com/theexorcist.jpg",
+      "coverPhoto": "./img/Img/Img/TheExorcist.jpeg",
       "genre": "Horror",
       "isEditing":false
     },
@@ -180,7 +180,7 @@ let bookset=
       "bookName": "The Haunting of Hill House",
       "authorName": "Shirley Jackson",
       "rating": 4.0,
-      "coverPhoto": "https://example.com/thehauntingofhillhouse.jpg",
+      "coverPhoto": "./img/Img/Img/ThehauntingofHill.jpeg",
       "genre": "Horror",
       "isEditing":false
     },
@@ -188,7 +188,7 @@ let bookset=
       "bookName": "The Road",
       "authorName": "Cormac McCarthy",
       "rating": 4.0,
-      "coverPhoto": "https://example.com/theroad.jpg",
+      "coverPhoto": "./img/Img/Img/TheRoad.jpeg",
       "genre": "Post-Apocalyptic",
       "isEditing":false
     },
@@ -196,7 +196,7 @@ let bookset=
       "bookName": "The Handmaid's Tale",
       "authorName": "Margaret Atwood",
       "rating": 4.8,
-      "coverPhoto": "https://example.com/thehandmaidstale.jpg",
+      "coverPhoto": "./img/Img/Img/TheHandMaidTail.jpeg",
       "genre": "Dystopian",
       "isEditing":false
     },
@@ -204,7 +204,7 @@ let bookset=
       "bookName": "Fahrenheit 451",
       "authorName": "Ray Bradbury",
       "rating": 4.7,
-      "coverPhoto": "https://example.com/fahrenheit451.jpg",
+      "coverPhoto": "./img/Img/Img/451.jpeg",
       "genre": "Dystopian",
       "isEditing":false
     },
@@ -212,7 +212,7 @@ let bookset=
       "bookName": "The Hunger Games",
       "authorName": "Suzanne Collins",
       "rating": 4.6,
-      "coverPhoto": "https://example.com/thehungergames.jpg",
+      "coverPhoto": "./img/Img/Img/TheHungerMan.jpeg",
       "genre": "Dystopian",
       "isEditing":false
     },
@@ -220,7 +220,7 @@ let bookset=
       "bookName": "Divergent",
       "authorName": "Veronica Roth",
       "rating": 4.5,
-      "coverPhoto": "https://example.com/divergent.jpg",
+      "coverPhoto": "./img/Img/Img/Divergent.jpeg",
       "genre": "Dystopian",
       "isEditing":false
     },
@@ -228,7 +228,7 @@ let bookset=
       "bookName": "The Maze Runner",
       "authorName": "James Dashner",
       "rating": 4.4,
-      "coverPhoto": "https://example.com/themazerunner.jpg",
+      "coverPhoto": "./img/Img/Img/TheMazeRunner.jpeg",
       "genre": "Dystopian",
       "isEditing":false
     },
@@ -236,7 +236,7 @@ let bookset=
       "bookName": "The Alchemist",
       "authorName": "Paulo Coelho",
       "rating": 4.3,
-      "coverPhoto": "https://example.com/thealchemist.jpg",
+      "coverPhoto": "./img/Img/Img/TheAlchemist.jpeg",
       "genre": "Philosophical",
       "isEditing":false
     },
@@ -244,7 +244,7 @@ let bookset=
       "bookName": "Siddhartha",
       "authorName": "Hermann Hesse",
       "rating": 4.2,
-      "coverPhoto": "https://example.com/siddhartha.jpg",
+      "coverPhoto": "./img/Img/Img/Siddhartha.jpeg",
       "genre": "Philosophical",
       "isEditing":false
     },
@@ -252,7 +252,7 @@ let bookset=
       "bookName": "The Prophet",
       "authorName": "Kahlil Gibran",
       "rating": 4.1,
-      "coverPhoto": "https://example.com/theprophet.jpg",
+      "coverPhoto": "./img/Img/Img/Theprofit.jpeg",
       "genre": "Philosophical",
       "isEditing":false
     },
@@ -260,7 +260,7 @@ let bookset=
       "bookName": "Zen and the Art of Motorcycle Maintenance",
       "authorName": "Robert M. Pirsig",
       "rating": 4.0,
-      "coverPhoto": "https://example.com/zenandtheartofmotorcyclemaintenance.jpg",
+      "coverPhoto": "./img/Img/Img/Theartofmotorcycle.jpeg",
       "genre": "Philosophical",
       "isEditing":false
     },
@@ -268,7 +268,7 @@ let bookset=
       "bookName": "The Art of War",
       "authorName": "Sun Tzu",
       "rating": 4.0,
-      "coverPhoto": "https://example.com/theartofwar.jpg",
+      "coverPhoto": "./img/Img/Img/Theartofthewar.jpeg",
       "genre": "Philosophical",
       "isEditing":false
     }
