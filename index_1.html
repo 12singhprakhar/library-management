@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibraryManagement</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="main" id="main">
+        <div class="navbar">
+            <img src="" alt="">
+            <button>Home</button>
+            <button>Contact Us</button>
+            <button id="login" onclick="logged()">Login</button>
+            <button class="afterlogin" id="logout" hidden>Logout</button>
+            <div class="dropdown">
+            <button class="afterlogin" id="manage" hidden>Manage</button>
+                <!-- <button>BooksCollection</button> -->
+                <div class="content">
+                    <a href="index_2.html">Borrow</a>
+                    <a href="">About us</a>
+                    
+                </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="container1">
+
+
+            <div class="genre">
+                <ul>
+                    <li>Finance</li>
+                    <li>Politics</li>
+                    <li>Science</li>
+                    <li>Literature</li>
+                    <li>Drama</li>
+                    <li>Biography</li>
+                    <li>textbooks</li>
+                </ul>
+            </div>
+
+
+            
+        </div>
+    </div>
+
+    <div style="width: 300px; height: 100px; background-color: rgb(89, 54, 8); color: white; float: right; margin-top: -3cm; margin-right: 2cm;"><h1 style="font-size: xx-large;">Library Hub</h1></div>
+
+    <div class="container2" id="container2" >
+            <form action="" onsubmit="event.preventDefault()"></form>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="pwd" placeholder="Password">
+            <input type="submit" onclick="authenticate()" value="Login" >
+
+    </div>
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
