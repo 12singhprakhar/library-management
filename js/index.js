@@ -4,7 +4,7 @@ let bookset=
       "bookName": "To Kill a Mockingbird",
       "authorName": "Harper Lee",
       "rating": 4.8,
-      "coverPhoto": "./img/Img/Img/Tokillamockingbird.jpeg",
+      "coverPhoto": "img\Img\Img\Tokillamockingbird.jpeg",
       "genre": "Fiction",
       "isEditing":false
     },
@@ -52,7 +52,7 @@ let bookset=
       "bookName": "Brave New World",
       "authorName": "Aldous Huxley",
       "rating": 4.2,
-      "coverPhoto": "https://example.com/bravenewworld.jpg",
+      "coverPhoto": "http://127.0.0.1:5500/",
       "genre": "Dystopian",
       "isEditing":false
     },
@@ -297,7 +297,7 @@ const addbookpop=document.getElementById('addbookblock');
 const addbookbtn=document.getElementById('addBook');
 const homebtn=document.getElementById('home');
 const contactbtn=document.getElementById('contact');
-
+const contactblock=document.getElementById('contactus');
 
 
 function addBook(){
@@ -455,6 +455,7 @@ function authenticate(){
 function manage(){
     managebox.style.display='flex';
     mainpage.style.display='none';
+    contactblock.style.display="none";
     renderBooks();
 
 }
@@ -473,12 +474,16 @@ homebtn.addEventListener('click',()=>{
 })
 
 contactbtn.addEventListener('click',(event)=>{
+    contactblock.style.display="block";
     managebox.style.display='none';
     mainpage.style.display='flex';
     event.preventDefault();
     document.getElementById('contactus').scrollIntoView({behavior:'smooth'});
 });
 
+function borrow(){
+  window.location.href="http://127.0.0.1:5500/borrow.html"
+}
 
 function displaybooks(){
   console.log("hello");
@@ -490,7 +495,8 @@ function displaybooks(){
      card.innerHTML=`<img src="${books.coverPhoto}" alt="Cover Image" style="width: 50px; height: 75px;">
           <p>${book.bookName}</p>
             
-                <p>${book.rating}</p>
+          <p>${book.rating}</p>
+          <button onclick="borrow()" id="borrowbtn">Borrow</button>
               
               `;
       bookCard.appendChild(card);
