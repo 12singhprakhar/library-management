@@ -4,7 +4,7 @@ let bookset=
       "bookName": "To Kill a Mockingbird",
       "authorName": "Harper Lee",
       "rating": 4.8,
-      "coverPhoto": "https://example.com/tokillamockingbird.jpg",
+      "coverPhoto": "./img/Img/Img/Tokillamockingbird.jpeg",
       "genre": "Fiction",
       "isEditing":false
     },
@@ -307,19 +307,17 @@ function addBook(){
     let bookrating=document.getElementById('addinput4').value;
     let bookGenre=document.getElementById('addinput5').value;
     console.log("books added");
-    console.log(bookName);
     if (bookName !== '' && bookAuthor !== '') {
         const reader = new FileReader();
-        console.log("inside if");
         reader.onload = function(e) {
             console.log("annoymous function");
             const book = { 
                 
-                title: bookName, 
-                author: bookAuthor, 
+                bookName: bookName, 
+                authorName: bookAuthor, 
                 rating:bookrating,
                 genre:bookGenre,
-                cover: e.target.result, 
+                coverPhoto: e.target.result, 
                 isEditing: false 
             };
             books.push(book);
@@ -336,6 +334,7 @@ function addBook(){
             renderBooks();
         };
         reader.readAsDataURL(bookCover);
+        addbookpop.style.display="none";
 }
 }
 
@@ -352,17 +351,18 @@ function editBook(index) {
 }
 
 function saveBook(index) {
-    const editTitle = document.getElementById(`editName-${index}`).value.trim();
+  console.log("save it");
+    const editTitle = document.getElementById(`editTitle-${index}`).value.trim();
     const editAuthor = document.getElementById(`editAuthor-${index}`).value.trim();
     const editRating = document.getElementById(`editRating-${index}`).value.trim();
     const editGenre = document.getElementById(`editGenre-${index}`).value.trim();
     const editCover = document.getElementById(`editCover-${index}`).files[0];
 
-    if (editTitle !== '' && editAuthor !== '' && !isNaN(editDate)) {
+    if (editTitle !== '' && editAuthor !== '') {
         if (editCover) {
             const reader = new FileReader();
             reader.onload = function(e) {
-                books[index].cover = e.target.result;
+                books[index].coverPhoto = e.target.result;
                 books[index].title = editTitle;
                 books[index].author = editAuthor;
                 books[index].rating = editRating;
@@ -478,3 +478,22 @@ contactbtn.addEventListener('click',(event)=>{
     event.preventDefault();
     document.getElementById('contactus').scrollIntoView({behavior:'smooth'});
 });
+
+
+function displaybooks(){
+  console.log("hello");
+   const bookCard=document.querySelector('.container');
+
+   books.forEach((book,index)=>{
+     const card=document.createElement('div');
+     card.className="card";
+     card.innerHTML=`<img src="${books.coverPhoto}" alt="Cover Image" style="width: 50px; height: 75px;">
+          <p>${book.bookName}</p>
+            
+                <p>${book.rating}</p>
+              
+              `;
+      bookCard.appendChild(card);
+   })
+}
+displaybooks();
