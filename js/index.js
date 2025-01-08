@@ -4,9 +4,9 @@ let bookset=
       "bookName": "To Kill a Mockingbird",
       "authorName": "Harper Lee",
       "rating": 4.8,
-      "coverPhoto": "img\Img\Img\Tokillamockingbird.jpeg",
+      "coverPhoto": "./img/Img/Img/Tokillamockingbird.jpeg",
       "genre": "Fiction",
-      "isEditing":false
+      "isEditing":false,
     },
     {
       "bookName": "1984",
@@ -20,7 +20,7 @@ let bookset=
       "bookName": "Pride and Prejudice",
       "authorName": "Jane Austen",
       "rating": 4.6,
-      "coverPhoto": "https://example.com/prideandprejudice.jpg",
+      "coverPhoto": "./img/Img/Img/Pride&Prejudice.jpeg",
       "genre": "Romance",
       "isEditing":false
     },
@@ -28,7 +28,7 @@ let bookset=
       "bookName": "The Great Gatsby",
       "authorName": "F. Scott Fitzgerald",
       "rating": 4.5,
-      "coverPhoto": "https://example.com/thegreatgatsby.jpg",
+      "coverPhoto": "./img/Img/Img/Thegreatgatsby.jpg",
       "genre": "Classic",
       "isEditing":false
     },
@@ -36,7 +36,7 @@ let bookset=
       "bookName": "Moby Dick",
       "authorName": "Herman Melville",
       "rating": 4.4,
-      "coverPhoto": "https://example.com/mobydick.jpg",
+      "coverPhoto": "./img/Img/Img/Moby-Dick.jpeg",
       "genre": "Adventure",
       "isEditing":false
     },
@@ -44,7 +44,7 @@ let bookset=
       "bookName": "The Catcher in the Rye",
       "authorName": "J.D. Salinger",
       "rating": 4.3,
-      "coverPhoto": "https://example.com/thecatcherintherye.jpg",
+      "coverPhoto": "./img/Img/Img/TheCatcherintheRay.jpeg",
       "genre": "Fiction",
       "isEditing":false
     },
@@ -52,7 +52,7 @@ let bookset=
       "bookName": "Brave New World",
       "authorName": "Aldous Huxley",
       "rating": 4.2,
-      "coverPhoto": "http://127.0.0.1:5500/",
+      "coverPhoto": "./img/Img/Img/BraveNewWorld.jpeg",
       "genre": "Dystopian",
       "isEditing":false
     },
@@ -60,7 +60,7 @@ let bookset=
       "bookName": "Wuthering Heights",
       "authorName": "Emily Brontë",
       "rating": 4.1,
-      "coverPhoto": "https://example.com/wutheringheights.jpg",
+      "coverPhoto": "./img/Img/Img/WutheringHeight.jpeg",
       "genre": "Romance",
       "isEditing":false
     },
@@ -68,7 +68,7 @@ let bookset=
       "bookName": "War and Peace",
       "authorName": "Leo Tolstoy",
       "rating": 4.0,
-      "coverPhoto": "https://example.com/warandpeace.jpg",
+      "coverPhoto": "./img/Img/Img/Warandpeace.jpeg",
       "genre": "Historical",
       "isEditing":false
     },
@@ -76,7 +76,7 @@ let bookset=
       "bookName": "The Odyssey",
       "authorName": "Homer",
       "rating": 4.0,
-      "coverPhoto": "https://example.com/theodyssey.jpg",
+      "coverPhoto": "./img/Img/Img/TheOdssey.jpeg",
       "genre": "Epic",
       "isEditing":false
     },
@@ -84,7 +84,7 @@ let bookset=
       "bookName": "The Hobbit",
       "authorName": "J.R.R. Tolkien",
       "rating": 4.9,
-      "coverPhoto": "https://example.com/thehobbit.jpg",
+      "coverPhoto": "./img/Img/Img/TheHobbit.jpeg",
       "genre": "Fantasy",
       "isEditing":false
     },
@@ -92,7 +92,7 @@ let bookset=
       "bookName": "Harry Potter and the Sorcerer's Stone",
       "authorName": "J.K. Rowling",
       "rating": 4.8,
-      "coverPhoto": "https://example.com/harrypotter1.jpg",
+      "coverPhoto": "./img/Img/Img/HarryPotter.jpeg",
       "genre": "Fantasy",
       "isEditing":false
     },
@@ -116,7 +116,7 @@ let bookset=
       "bookName": "A Game of Thrones",
       "authorName": "George R.R. Martin",
       "rating": 4.7,
-      "coverPhoto": "https://example.com/agameofthrones.jpg",
+      "coverPhoto": "./img/Img/Img/TheGameofThrone.jpeg",
       "genre": "Fantasy",
       "isEditing":false
     },
@@ -124,7 +124,7 @@ let bookset=
       "bookName": "The Da Vinci Code",
       "authorName": "Dan Brown",
       "rating": 4.6,
-      "coverPhoto": "https://example.com/thedavincicode.jpg",
+      "coverPhoto": "./img/Img/Img/TheDevinceCode.jpeg",
       "genre": "Thriller",
       "isEditing":false
     },
@@ -273,9 +273,6 @@ let bookset=
       "isEditing":false
     }
 ];
-
-
-
 let books=JSON.parse(localStorage.getItem('books'))||bookset;
 
 
@@ -492,7 +489,9 @@ function displaybooks(){
    books.forEach((book,index)=>{
      const card=document.createElement('div');
      card.className="card";
-     card.innerHTML=`<img src="${books.coverPhoto}" alt="Cover Image" style="width: 50px; height: 75px;">
+     card.innerHTML=`
+     <div class="card-image img-1" style="background-image: url(${book.coverPhoto}) ;">
+     </div>
           <p>${book.bookName}</p>
             
           <p>${book.rating}</p>
