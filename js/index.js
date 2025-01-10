@@ -1,4 +1,4 @@
-let bookset=
+let bookset =
   [
     {
       "bookName": "To Kill a Mockingbird",
@@ -6,7 +6,7 @@ let bookset=
       "rating": 4.8,
       "coverPhoto": "./img/Img/Img/Tokillamockingbird.jpeg",
       "genre": "Fiction",
-      "isEditing":false,
+      "isEditing": false,
     },
     {
       "bookName": "1984",
@@ -14,7 +14,7 @@ let bookset=
       "rating": 4.7,
       "coverPhoto": "./img/Img/Img/GeorgOrwell1984.jpeg",
       "genre": "Dystopian",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Pride and Prejudice",
@@ -22,7 +22,7 @@ let bookset=
       "rating": 4.6,
       "coverPhoto": "./img/Img/Img/Pride&Prejudice.jpeg",
       "genre": "Romance",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Great Gatsby",
@@ -30,7 +30,7 @@ let bookset=
       "rating": 4.5,
       "coverPhoto": "./img/Img/Img/Thegreatgatsby.jpg",
       "genre": "Classic",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Moby Dick",
@@ -38,7 +38,7 @@ let bookset=
       "rating": 4.4,
       "coverPhoto": "./img/Img/Img/Moby-Dick.jpeg",
       "genre": "Adventure",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Catcher in the Rye",
@@ -46,7 +46,7 @@ let bookset=
       "rating": 4.3,
       "coverPhoto": "./img/Img/Img/TheCatcherintheRay.jpeg",
       "genre": "Fiction",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Brave New World",
@@ -54,7 +54,7 @@ let bookset=
       "rating": 4.2,
       "coverPhoto": "./img/Img/Img/BraveNewWorld.jpeg",
       "genre": "Dystopian",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Wuthering Heights",
@@ -62,7 +62,7 @@ let bookset=
       "rating": 4.1,
       "coverPhoto": "./img/Img/Img/WutheringHeight.jpeg",
       "genre": "Romance",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "War and Peace",
@@ -70,7 +70,7 @@ let bookset=
       "rating": 4.0,
       "coverPhoto": "./img/Img/Img/Warandpeace.jpeg",
       "genre": "Historical",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Odyssey",
@@ -78,7 +78,7 @@ let bookset=
       "rating": 4.0,
       "coverPhoto": "./img/Img/Img/TheOdssey.jpeg",
       "genre": "Epic",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Hobbit",
@@ -86,7 +86,7 @@ let bookset=
       "rating": 4.9,
       "coverPhoto": "./img/Img/Img/TheHobbit.jpeg",
       "genre": "Fantasy",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Harry Potter and the Sorcerer's Stone",
@@ -94,7 +94,7 @@ let bookset=
       "rating": 4.8,
       "coverPhoto": "./img/Img/Img/HarryPotter.jpeg",
       "genre": "Fantasy",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Fellowship of the Ring",
@@ -102,7 +102,7 @@ let bookset=
       "rating": 4.8,
       "coverPhoto": "./img/Img/Img/Thelordofthering.jpg",
       "genre": "Fantasy",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Lion, the Witch and the Wardrobe",
@@ -110,7 +110,7 @@ let bookset=
       "rating": 4.7,
       "coverPhoto": "./img/Img/Img/ThewitchandtheWar.jpeg",
       "genre": "Fantasy",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "A Game of Thrones",
@@ -118,7 +118,7 @@ let bookset=
       "rating": 4.7,
       "coverPhoto": "./img/Img/Img/TheGameofThrone.jpeg",
       "genre": "Fantasy",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Da Vinci Code",
@@ -126,7 +126,7 @@ let bookset=
       "rating": 4.6,
       "coverPhoto": "./img/Img/Img/TheDevinceCode.jpeg",
       "genre": "Thriller",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Gone Girl",
@@ -134,7 +134,7 @@ let bookset=
       "rating": 4.5,
       "coverPhoto": "./img/Img/Img/GoneGirl.jpeg",
       "genre": "Thriller",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Girl with the Dragon Tattoo",
@@ -142,7 +142,7 @@ let bookset=
       "rating": 4.5,
       "coverPhoto": "./img/Img/Img/ThewiththeDragontattoo.jpeg",
       "genre": "Thriller",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Shining",
@@ -150,7 +150,7 @@ let bookset=
       "rating": 4.4,
       "coverPhoto": "./img/Img/Img/Theshining.jpeg",
       "genre": "Horror",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Dracula",
@@ -158,7 +158,7 @@ let bookset=
       "rating": 4.3,
       "coverPhoto": "./img/Img/Img/Dracula.jpeg",
       "genre": "Horror",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Frankenstein",
@@ -166,7 +166,7 @@ let bookset=
       "rating": 4.2,
       "coverPhoto": "./img/Img/Img/Frankenstein.jpeg",
       "genre": "Horror",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Exorcist",
@@ -174,7 +174,7 @@ let bookset=
       "rating": 4.1,
       "coverPhoto": "./img/Img/Img/TheExorcist.jpeg",
       "genre": "Horror",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Haunting of Hill House",
@@ -182,7 +182,7 @@ let bookset=
       "rating": 4.0,
       "coverPhoto": "./img/Img/Img/ThehauntingofHill.jpeg",
       "genre": "Horror",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Road",
@@ -190,7 +190,7 @@ let bookset=
       "rating": 4.0,
       "coverPhoto": "./img/Img/Img/TheRoad.jpeg",
       "genre": "Post-Apocalyptic",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Handmaid's Tale",
@@ -198,7 +198,7 @@ let bookset=
       "rating": 4.8,
       "coverPhoto": "./img/Img/Img/TheHandMaidTail.jpeg",
       "genre": "Dystopian",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Fahrenheit 451",
@@ -206,7 +206,7 @@ let bookset=
       "rating": 4.7,
       "coverPhoto": "./img/Img/Img/451.jpeg",
       "genre": "Dystopian",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Hunger Games",
@@ -214,7 +214,7 @@ let bookset=
       "rating": 4.6,
       "coverPhoto": "./img/Img/Img/TheHungerMan.jpeg",
       "genre": "Dystopian",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Divergent",
@@ -222,7 +222,7 @@ let bookset=
       "rating": 4.5,
       "coverPhoto": "./img/Img/Img/Divergent.jpeg",
       "genre": "Dystopian",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Maze Runner",
@@ -230,7 +230,7 @@ let bookset=
       "rating": 4.4,
       "coverPhoto": "./img/Img/Img/TheMazeRunner.jpeg",
       "genre": "Dystopian",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Alchemist",
@@ -238,7 +238,7 @@ let bookset=
       "rating": 4.3,
       "coverPhoto": "./img/Img/Img/TheAlchemist.jpeg",
       "genre": "Philosophical",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Siddhartha",
@@ -246,7 +246,7 @@ let bookset=
       "rating": 4.2,
       "coverPhoto": "./img/Img/Img/Siddhartha.jpeg",
       "genre": "Philosophical",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Prophet",
@@ -254,7 +254,7 @@ let bookset=
       "rating": 4.1,
       "coverPhoto": "./img/Img/Img/Theprofit.jpeg",
       "genre": "Philosophical",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "Zen and the Art of Motorcycle Maintenance",
@@ -262,7 +262,7 @@ let bookset=
       "rating": 4.0,
       "coverPhoto": "./img/Img/Img/Theartofmotorcycle.jpeg",
       "genre": "Philosophical",
-      "isEditing":false
+      "isEditing": false
     },
     {
       "bookName": "The Art of War",
@@ -270,126 +270,129 @@ let bookset=
       "rating": 4.0,
       "coverPhoto": "./img/Img/Img/Theartofthewar.jpeg",
       "genre": "Philosophical",
-      "isEditing":false
+      "isEditing": false
     }
-];
-let books=JSON.parse(localStorage.getItem('books'))||bookset;
+  ];
+let books = JSON.parse(localStorage.getItem('books')) || bookset;
 
 
-function saveBooks(){
-    localStorage.setItem('books',JSON.stringify(books));
+function saveBooks() {
+  localStorage.setItem('books', JSON.stringify(books));
+  // bookset.push(books);
 }
 
 
 
-sessionStorage.setItem("islogged","false");
-const btndisplay=document.querySelectorAll(".afterlogin");
-const btnhide=document.getElementById("login")
-const btnlogout=document.getElementById("logout")
-const loginform=document.getElementById('container2');
-const managebtn=document.getElementById('manage');
-const managebox=document.getElementById('manageBox');
-const mainpage=document.getElementById('mainpage')
-const addbookpop=document.getElementById('addbookblock');
-const addbookbtn=document.getElementById('addBook');
-const homebtn=document.getElementById('home');
-const contactbtn=document.getElementById('contact');
-const contactblock=document.getElementById('contactus');
+sessionStorage.setItem("islogged", "false");
+const btndisplay = document.querySelectorAll(".afterlogin");
+const btnhide = document.getElementById("login")
+const btnlogout = document.getElementById("logout")
+const loginform = document.getElementById('container2');
+const closelogin = document.getElementById('closepop');
+const managebtn = document.getElementById('manage');
+const managebox = document.getElementById('manageBox');
+const mainpage = document.getElementById('mainpage')
+const addbookpop = document.getElementById('addbookblock');
+const addbookbtn = document.getElementById('addBook');
+const homebtn = document.getElementById('home');
+const contactbtn = document.getElementById('contact');
+const contactblock = document.getElementById('contactus');
+const genrebtn=document.getElementById('gen');
 
 
-function addBook(){
-    let bookName=document.getElementById('addinput1').value;
-    let bookCover=document.getElementById('addinput2').files[0];
-    let bookAuthor=document.getElementById('addinput3').value;
-    let bookrating=document.getElementById('addinput4').value;
-    let bookGenre=document.getElementById('addinput5').value;
-    console.log("books added");
-    if (bookName !== '' && bookAuthor !== '') {
-        const reader = new FileReader();
-        reader.onload = function(e) {
-            console.log("annoymous function");
-            const book = { 
-                
-                bookName: bookName, 
-                authorName: bookAuthor, 
-                rating:bookrating,
-                genre:bookGenre,
-                coverPhoto: e.target.result, 
-                isEditing: false 
-            };
-            books.push(book);
-            // document.getElementById('bookTitle').value = '';
-            // document.getElementById('bookAuthor').value = '';
-            // document.getElementById('bookDate').value = '';
-            // document.getElementById('bookCover').value = '';
-            bookName='';
-            bookAuthor='';
-            bookCover='';
-            bookGenre='';
-            bookrating='';
-            saveBooks();
-            renderBooks();
-        };
-        reader.readAsDataURL(bookCover);
-        addbookpop.style.display="none";
-}
+function addBook() {
+  let bookName = document.getElementById('addinput1').value;
+  let bookCover = document.getElementById('addinput2').files[0];
+  let bookAuthor = document.getElementById('addinput3').value;
+  let bookrating = document.getElementById('addinput4').value;
+  let bookGenre = document.getElementById('addinput5').value;
+  console.log("books added");
+  if (bookName !== '' && bookAuthor !== '') {
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      console.log("annoymous function");
+      const book = {
+
+        bookName: bookName,
+        authorName: bookAuthor,
+        rating: bookrating,
+        genre: bookGenre,
+        coverPhoto: e.target.result,
+        isEditing: false
+      };
+      books.push(book);
+      // document.getElementById('bookTitle').value = '';
+      // document.getElementById('bookAuthor').value = '';
+      // document.getElementById('bookDate').value = '';
+      // document.getElementById('bookCover').value = '';
+      bookName = '';
+      bookAuthor = '';
+      bookCover = '';
+      bookGenre = '';
+      bookrating = '';
+      saveBooks();
+      renderBooks();
+    };
+    reader.readAsDataURL(bookCover);
+    addbookpop.style.display = "none";
+  }
 }
 
 
 function deleteBook(index) {
-    books.splice(index, 1);
-    saveBooks();
-    renderBooks();
+  books.splice(index, 1);
+  saveBooks();
+  renderBooks();
 }
 
 function editBook(index) {
-    books[index].isEditing = !books[index].isEditing;
-    renderBooks();
+  books[index].isEditing = !books[index].isEditing;
+  renderBooks();
 }
 
 function saveBook(index) {
   console.log("save it");
-    const editTitle = document.getElementById(`editTitle-${index}`).value.trim();
-    const editAuthor = document.getElementById(`editAuthor-${index}`).value.trim();
-    const editRating = document.getElementById(`editRating-${index}`).value.trim();
-    const editGenre = document.getElementById(`editGenre-${index}`).value.trim();
-    const editCover = document.getElementById(`editCover-${index}`).files[0];
+  const editTitle = document.getElementById(`editTitle-${index}`).value.trim();
+  const editAuthor = document.getElementById(`editAuthor-${index}`).value.trim();
+  const editRating = document.getElementById(`editRating-${index}`).value.trim();
+  const editGenre = document.getElementById(`editGenre-${index}`).value.trim();
+  const editCover = document.getElementById(`editCover-${index}`).files[0];
 
-    if (editTitle !== '' && editAuthor !== '') {
-        if (editCover) {
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                books[index].coverPhoto = e.target.result;
-                books[index].title = editTitle;
-                books[index].author = editAuthor;
-                books[index].rating = editRating;
-                books[index].genre = editGenre;
-                
-                books[index].isEditing = false;
-                saveBooks();
-                renderBooks();
-            };
-            reader.readAsDataURL(editCover);
-        } else {
-            books[index].title = editTitle;
-            books[index].author = editAuthor;
-            books[index].rating = editRating;
-            books[index].genre = editGenre;
-            books[index].isEditing = false;
-            saveBooks();
-            renderBooks();
-        }
+  if (editTitle !== '' && editAuthor !== '') {
+    if (editCover) {
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        books[index].coverPhoto = e.target.result;
+        books[index].title = editTitle;
+        books[index].author = editAuthor;
+        books[index].rating = editRating;
+        books[index].genre = editGenre;
+
+        books[index].isEditing = false;
+        saveBooks();
+        renderBooks();
+      };
+      reader.readAsDataURL(editCover);
+    } else {
+      books[index].title = editTitle;
+      books[index].author = editAuthor;
+      books[index].rating = editRating;
+      books[index].genre = editGenre;
+      books[index].isEditing = false;
+      saveBooks();
+      renderBooks();
     }
+  }
 }
 
-function renderBooks(){
-    console.log("render function");
-    const bookTableBody = document.querySelector('#manageBox tbody');
-    bookTableBody.innerHTML = '';
-    books.forEach((book, index) => {
-        const row = document.createElement('tr');
-        if (book.isEditing) {
-            row.innerHTML = `
+function renderBooks() {
+  console.log("render function");
+  const bookTableBody = document.querySelector('#manageBox tbody');
+  bookTableBody.innerHTML = '';
+  books.forEach((book, index) => {
+    const row = document.createElement('tr');
+    if (book.isEditing) {
+      row.innerHTML = `
                 <td><input type="file" id="editCover-${index}" accept="image/*"></td>
                 <td><input type="text" id="editTitle-${index}" value="${book.bookName}"></td>
                 <td><input type="text" id="editAuthor-${index}" value="${book.authorName}"></td>
@@ -401,9 +404,9 @@ function renderBooks(){
                     <button onclick="editBook(${index})">Cancel</button>
                 </td>
             `;
-        } else {
-            console.log("printing data");
-            row.innerHTML = `
+    } else {
+      console.log("printing data");
+      row.innerHTML = `
                 <td><img src="${book.coverPhoto}" alt="Cover Image" style="width: 50px; height: 75px;"></td>
                 <td>${book.bookName}</td>
                 <td>${book.authorName}</td>
@@ -415,90 +418,125 @@ function renderBooks(){
                     <button onclick="deleteBook(${index})">Delete</button>
                 </td>
             `;
-        }
-        bookTableBody.appendChild(row);
+    }
+    bookTableBody.appendChild(row);
+  });
+
+}
+
+function logged() {
+  console.log("pressed");
+  loginform.classList.add('active');
+}
+
+btnlogout.addEventListener("click", () => {
+  sessionStorage.setItem("islogged", "false");
+  history.go(0);
+})
+
+function authenticate() {
+  const user = document.getElementById('username');
+  const pass = document.getElementById('pwd');
+
+  if (user.value === "admin" && pass.value === "admin123") {
+    sessionStorage.setItem("islogged", "true");
+    btndisplay.forEach(element => {
+      element.classList.add('afterloginbtn');
     });
-
+    btnhide.style.display = "none";
+    loginform.style.display = "none";
+  }
+  else {
+    alert("Wrong credentials");
+  }
 }
 
-function logged(){
-    loginform.style.display="flex";
-    console.log("pressed");
+function closePopup() {
+  loginform.classList.remove('active');
 }
 
-btnlogout.addEventListener("click",()=>{
-    sessionStorage.setItem("islogged","false");
-    history.go(0);
+window.addEventListener('click', function (event) {
+  console.log(event.target);
+  const isClickInside = loginform.contains(event.target) || event.target.matches('button[onclick="logged()"]');
+  if (loginform.classList.contains('active') && !isClickInside) {
+    closePopup();
+  }
 })
 
-function authenticate(){
-    const user=document.getElementById('username');
-    const pass=document.getElementById('pwd');
-    
-    if(user.value==="admin" && pass.value==="admin123")
-    {
-        sessionStorage.setItem("islogged","true");
-        btndisplay.forEach(element =>{
-            element.classList.add('afterloginbtn');
-        });
-        btnhide.style.display="none";
-        loginform.style.display="none";
-    }
-    else{
-        alert("Wrong credentials");
-    }
-}
 
-function manage(){
-    managebox.style.display='flex';
-    mainpage.style.display='none';
-    contactblock.style.display="none";
-    renderBooks();
+function manage() {
+  managebox.style.display = 'flex';
+  mainpage.style.display = 'none';
+  contactblock.style.display = "none";
+  renderBooks();
 
 }
 
-addbookbtn.addEventListener('click',()=>{
-    addbookpop.style.display='flex';
-    console.log("addbtn");
+addbookbtn.addEventListener('click', () => {
+  addbookpop.style.display = 'flex';
+  console.log("addbtn");
 })
 
-function goBack(){
-    addbookpop.style.display='none';
+function goBack() {
+  addbookpop.style.display = 'none';
 }
 
-homebtn.addEventListener('click',()=>{
-    window.location.href='index.html';
+homebtn.addEventListener('click', () => {
+  window.location.href = 'index.html';
 })
 
-contactbtn.addEventListener('click',(event)=>{
-    contactblock.style.display="flex";
-    managebox.style.display='none';
-    mainpage.style.display='flex';
-    event.preventDefault();
-    document.getElementById('contactus').scrollIntoView({behavior:'smooth'});
+contactbtn.addEventListener('click', (event) => {
+  contactblock.style.display = "flex";
+  managebox.style.display = 'none';
+  mainpage.style.display = 'flex';
+  event.preventDefault();
+  document.getElementById('contactus').scrollIntoView({ behavior: 'smooth' });
 });
 
-function borrow(){
-  window.location.href="http://127.0.0.1:5500/borrow.html"
+function borrow(index) {
+  window.location.href = "http://127.0.0.1:5500/borrow.html"
+  const conbook=document.getElementById('container');
+  conbook.innerHTML='';
+  books.forEach((book,index)=>{
+
+    const cardbook=document.createElement('div');
+    cardbook.className="card";
+    cardbook.innerHTML=`
+     <div class="card-image" style="background-image: url(${book.coverPhoto}) ;">
+       </div>
+            <p>${book.bookName}</p>
+              
+            <p>${book.rating}</p>
+            <button onclick="borrow(${index})" id="borrowbtn">Borrow</button>
+    `;
+    conbook.appendChild(cardbook);
+  })
 }
 
-function displaybooks(){
+function displaybooks(filterGenre='All') {
   console.log("hello");
-   const bookCard=document.querySelector('.container');
-
-   books.forEach((book,index)=>{
-     const card=document.createElement('div');
-     card.className="card";
-     card.innerHTML=`
-     <div class="card-image img-1" style="background-image: url(${book.coverPhoto}) ;">
+  const bookCard = document.querySelector('.container');
+  bookCard.innerHTML='';
+  books.forEach((book, index) => {
+    if (filterGenre !== 'All' && filterGenre !== 'Others' && book.genre !== filterGenre) return;
+    if (filterGenre === 'Others' && (book.genre === 'Fiction' || book.genre === 'Romance' ||book.genre==='Classic'||book.genre==='Adventure'||book.genre==='Fantasy'||book.genre=='Thriller'||book.genre==='Horror')) return;
+    const card = document.createElement('div');
+    card.className = "card";
+    card.innerHTML = `
+     <div class="card-image" style="background-image: url(${book.coverPhoto}) ;">
      </div>
           <p>${book.bookName}</p>
             
           <p>${book.rating}</p>
-          <button onclick="borrow()" id="borrowbtn">Borrow</button>
+          <button onclick="borrow(${index})" id="borrowbtn">Borrow</button>
               
               `;
-      bookCard.appendChild(card);
-   })
+    bookCard.appendChild(card);
+  })
+}
+
+function filtergen(genre){
+  displaybooks(genre);
 }
 displaybooks();
+

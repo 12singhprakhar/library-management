@@ -19,23 +19,31 @@ header button{
 .genre{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 15%;
     height: 40%;
     border: 2px solid black;
-    border-left: 0px;
-    
     margin-top: 5%;
-    margin-left: 0px
+    margin-left: 20px;
     padding: 10px;
-
+    align-items: center;
+}
+.genre p{
+    font-weight: 600;
+    border: 2px solid orange;
+    margin: 5px;
+    padding: 2px;
+    &hover{
+        cursor: pointer;
+    }
 }
 
 
 .container1 {
     display: flex;
-    gap: 15%;
+    gap: 0px;
 }
 .container {
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -57,32 +65,6 @@ header button{
     border-radius: 15px 15px 0 0;
 }
 
-.img-1 {
-    background-image: url(../img/ji.jpg);
-}
-
-.img-2 {
-    background-image: url(../img/kamla.jpg);
-}
-
-.img-3 {
-    background-image: url(../img/gitanjali.jpg);
-}
-
-.img-4 {
-    background-image: url(../img/apj.jpg);
-}
-
-.img-5 {
-    background-image: url(../img/mistake.jpg);
-}
-
-.img-6 {
-    background-image: url(../img/mocking.jpg);
-}
-
-
-
 .card p{
     padding-right: 0px;
 }
@@ -95,11 +77,9 @@ header button{
     transition: all 1s ease;
 }
 
-
 .afterloginbtn {
     display: block;
 }
-
 .container2 {
     border: 2px solid black;
     border-radius: 5px;
@@ -116,6 +96,9 @@ header button{
     top: 20%;
     right: 0;
     background-color: antiquewhite;
+}
+.container2.active{
+    display: flex;
 }
 .container3{
     width: 90%;

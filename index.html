@@ -23,18 +23,15 @@
 
             <div class="genre">
                 
-                    <p>Fictic</p>
-                    <p>Dystopian</p>
-                    <p>Romance</p>
-                    <p>Classic</p>
-                    <p>Adventure</p>
-                    <p>Historical</p>
-                    <p>Epic</p>
-                    <p>Fantasy</p>
-                    <p>Thriller</p>
-                    <p>Horror</p>
-                    <p>Post-Apocalyptic</p>
-                    <p>Philosophical</p>
+                    <p id="gen" onclick="filtergen('All')">All</p>
+                    <p id="gen" onclick="filtergen('Fiction')">Fiction</p>
+                    <p id="gen" onclick="filtergen('Romance')">Romance</p>
+                    <p id="gen" onclick="filtergen('Classic')">Classic</p>
+                    <p id="gen" onclick="filtergen('Adventure')">Adventure</p>
+                    <p id="gen" onclick="filtergen('Fantasy')">Fantasy</p>
+                    <p id="gen" onclick="filtergen('Thriller')">Thriller</p>
+                    <p id="gen" onclick="filtergen('Horror')">Horror</p>
+                    <p id="gen" onclick="filtergen('Others')">Others</p>
         
             </div>
             
@@ -43,11 +40,12 @@
 
         </div>
     </div>
-    <div class="container2" id="container2" >
+    <div class="container2 " id="container2" >
 
             <input type="text" id="username" placeholder="Username">
             <input type="password" id="pwd" placeholder="Password">
             <input type="submit" onclick="authenticate()" value="Login" >
+            <button id="closepop" onclick="closePopup()">close</button>
         
 
     </div>
