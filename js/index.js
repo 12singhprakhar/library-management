@@ -494,23 +494,9 @@ contactbtn.addEventListener('click', (event) => {
 });
 
 function borrow(index) {
+  const bookborrow = books[index];
+  localStorage.setItem('borrowedBook', JSON.stringify(bookborrow));
   window.location.href = "http://127.0.0.1:5500/borrow.html"
-  const conbook=document.getElementById('container');
-  conbook.innerHTML='';
-  books.forEach((book,index)=>{
-
-    const cardbook=document.createElement('div');
-    cardbook.className="card";
-    cardbook.innerHTML=`
-     <div class="card-image" style="background-image: url(${book.coverPhoto}) ;">
-       </div>
-            <p>${book.bookName}</p>
-              
-            <p>${book.rating}</p>
-            <button onclick="borrow(${index})" id="borrowbtn">Borrow</button>
-    `;
-    conbook.appendChild(cardbook);
-  })
 }
 
 function displaybooks(filterGenre='All') {
