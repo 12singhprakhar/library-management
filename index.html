@@ -6,32 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LibraryManagement</title>
     <link rel="stylesheet" href="./css/index1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="main" id="main">
-        <nav>
-            <img src="" alt="">
+        <div class="nav">
+            <i class="fa-solid fa-book-bookmark fa-lg" id="one"><span>  </span>library</i>
             <button id="home">Home</button>
             <button id="contact">Contact Us</button>
             <button id="login" onclick="logged()">Login</button>
             <button class="afterlogin" id="logout" hidden>Logout</button>
             <button class="afterlogin" id="manage" onclick="manage()" hidden>Manage</button>
-        </nav>
+        </div>
         <div class="container1" id="mainpage">
 
 
             <div class="genre">
                 
-                    <p id="gen" onclick="filtergen('All')">All</p>
-                    <p id="gen" onclick="filtergen('Fiction')">Fiction</p>
-                    <p id="gen" onclick="filtergen('Romance')">Romance</p>
-                    <p id="gen" onclick="filtergen('Classic')">Classic</p>
-                    <p id="gen" onclick="filtergen('Adventure')">Adventure</p>
-                    <p id="gen" onclick="filtergen('Fantasy')">Fantasy</p>
-                    <p id="gen" onclick="filtergen('Thriller')">Thriller</p>
-                    <p id="gen" onclick="filtergen('Horror')">Horror</p>
-                    <p id="gen" onclick="filtergen('Others')">Others</p>
+                    <span class="gen" id="gen" onclick="filtergen('All')">All</span>
+                    <span class="gen" id="gen" onclick="filtergen('Fiction')">Fiction</span>
+                    <span class="gen" id="gen" onclick="filtergen('Romance')">Romance</span>
+                    <span class="gen" id="gen" onclick="filtergen('Classic')">Classic</span>
+                    <span class="gen" id="gen" onclick="filtergen('Adventure')">Adventure</span>
+                    <span class="gen" id="gen" onclick="filtergen('Fantasy')">Fantasy</span>
+                    <span class="gen" id="gen" onclick="filtergen('Thriller')">Thriller</span>
+                    <span class="gen" id="gen" onclick="filtergen('Horror')">Horror</span>
+                    <span class="gen" id="gen" onclick="filtergen('Others')">Others</span>
         
             </div>
             
@@ -42,10 +45,10 @@
     </div>
     <div class="container2 " id="container2" >
 
+        <button id="closepop" onclick="closePopup()"><i class="fa-solid fa-xmark fa-lg"></i></button>
             <input type="text" id="username" placeholder="Username">
             <input type="password" id="pwd" placeholder="Password">
-            <input type="submit" onclick="authenticate()" value="Login" >
-            <button id="closepop" onclick="closePopup()">close</button>
+            <input type="submit" id="logbtn" onclick="authenticate()" value="Login" >
         
 
     </div>
@@ -81,24 +84,19 @@
         <input type="number" id="addinput4">
         <label>Genre</label>
         <input type="text" id="addinput5">
-        <button onclick="addBook()">ok</button>
-        <button onclick="goBack()">back</button>
+        <button class="btntab" onclick="addBook()"><i class="fa-regular fa-thumbs-up fa-lg"></i></button>
+        <button class="btntab" onclick="goBack()"><i class="fa-solid fa-backward fa-lg"></i></button>
 
     </div>
 
     <div id="contactus">
-        
-
-        <p>
-            You can contact us with the emails.
-
-        </p> 
-        
-        <p>Prakhar Singh- <span>12singhprakhar@gmail.com</span></p>
-        <p>Prince Lakhra- <span>princelakhra17@gmail.com</span></p>
+        <p>You can contact us with the emails.</p> 
+        <p>Prakhar Singh- <i class="fa-regular fa-envelope fa-lg"></i><span> 12singhprakhar@gmail.com</span></p>
+        <p>Prince Lakhra- <i class="fa-regular fa-envelope fa-lg"></i><span> princelakhra17@gmail.com</span></p>
     </div>
 
     <script src="./js/index.js"></script>
+    <script src="https://kit.fontawesome.com/9388b35478.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

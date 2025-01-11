@@ -1,11 +1,34 @@
-nav{
+body{
     margin: 0px;
-    border:2px solid black;
+    font-family: "Poppins";
+    background-color: #f0fff0;
+}
+.nav{
+    margin-bottom: 3%;
+    border-bottom: 2px solid #909ee1;
     height: 50px;
     display: flex;
     justify-content: right;
-    gap: 10px;
-    padding: 5px;
+    gap: 20px;
+    padding: 10px;
+    background: rgb(38,83,173);
+    background: linear-gradient(175deg, rgba(38,83,173,1) 12%, rgba(144,158,225,1) 86%);
+}
+.nav button{
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    font-weight: 500;
+    color: #f0ffff;
+    text-decoration: underline;
+    &:hover{
+        color: black;
+    }
+}
+#one{
+    margin:20px;
+    position:absolute;
+    left: 25px;
 }
 header button{
     height: 45px;
@@ -20,27 +43,29 @@ header button{
     display: flex;
     flex-direction: column;
     width: 15%;
-    height: 40%;
-    border: 2px solid black;
-    margin-top: 5%;
-    margin-left: 20px;
     padding: 10px;
     align-items: center;
 }
-.genre p{
+.genre span{
+    width: 100%;
     font-weight: 600;
-    border: 2px solid orange;
+    border: 2px solid #faebd7;
+    background-color:#fffff0 ;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
     margin: 5px;
-    padding: 2px;
-    &hover{
-        cursor: pointer;
-    }
+    padding: 10px;
+}
+.gen:hover{
+    background-color: #f0f8ff;
+    cursor: pointer;
+    font-weight: 500; 
 }
 
 
 .container1 {
     display: flex;
-    gap: 0px;
+    gap: 10px;
 }
 .container {
     width: 80%;
@@ -51,9 +76,11 @@ header button{
 .card {
     background: rgb(247, 241, 231);
     width: 290px;
+    height: 320px;
     margin: 10px;
     border-radius: 15px;
     text-align: center;
+    box-shadow: 2px 3px 6px #100c08;
 
 
 }
@@ -63,15 +90,17 @@ header button{
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
+    border-bottom: 1px solid black
 }
 
 .card p{
-    padding-right: 0px;
+    padding: 2px;
+    margin: 5px;
 }
 
 .card:hover {
     background-color: rgb(62, 65, 67);
-    color: white;
+    color: #fffafa;
     cursor: pointer;
     transform: scale(1.09);
     transition: all 1s ease;
@@ -84,7 +113,7 @@ header button{
     border: 2px solid black;
     border-radius: 5px;
     width: 25%;
-    height: 50%;
+    height: 25%;
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -93,16 +122,50 @@ header button{
     padding: 10px;
     gap: 10px;
     position: fixed;
-    top: 20%;
-    right: 0;
-    background-color: antiquewhite;
+    top: 8%;
+    right: -20px;
+    background-color: #f0f8ff;
+}
+.container2 input{
+    margin: 2px;
+    padding: 5px;
+    width: 90%;
+    background-color: #f8f8ff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: medium;
 }
 .container2.active{
     display: flex;
 }
+#logbtn{
+    width:20%;
+    padding: 3px;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color:#6495ed;
+    border: 1px solid #4682b4;
+    color: #f8f8ff ;
+    font-weight: 500;
+    &:hover{
+        background-color: #100c08;
+        border: none;
+        font-weight: 600;
+    }
+}
+#closepop{
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    align-self: flex-end;
+}
 .container3{
     width: 90%;
-    border: 2px solid black;
+    border: 2px solid #f8f8ff;
+    background-color: #fffff0;
+    box-shadow: 5px 5px 9px #dcdcdc;
+    border-radius: 10px;
     display: none;
     flex-direction: column;
     justify-self: center;
@@ -120,8 +183,14 @@ header button{
     border-radius: 20px;
     height: 13%;
 }
+table,th,td{
+    text-align: center;
+    padding: 2px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
 .container4{
-    border: 2px solid aqua;
+    border: 2px solid #dcdcdc;
     display: none;
     flex-direction: column;
     width: 60%;
@@ -133,11 +202,12 @@ header button{
     top:20%;
     left:20%;
     background-color: aliceblue;
+    box-shadow: 0px 0px 20px #a9a9a9 ;
 }
 .container4 input{
     width: 70%;
     margin: 5px;
-    padding: 2px;
+    padding: 7px;
     margin-left: 5%;
 }
 .container4 button{
@@ -149,7 +219,6 @@ header button{
     font-weight: 600;
 }
 #borrowbtn{
-    margin: auto;
     width:20%;
     padding: 3px;
     font-size: small;
@@ -157,16 +226,36 @@ header button{
     margin-bottom: 20px;
     border-radius: 20px;
     height: 35px;
+    background-color:#6495ed;
+    border: 1px solid #4682b4;
+    color: #f8f8ff ;
+    font-weight: 500;
+    &:hover{
+        background-color: #100c08;
+        border: none;
+        font-weight: 600;
+    }
+
 }
 #contactus{
-    border: 2px solid black;
-    margin: auto;
-    padding: 10px;
-    margin-top: 30px;
+    border-top: 2px solid #2653ad;
+    padding: 5px;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
-    color:rebeccapurple;
+    background: rgb(38,83,173);
+    background: linear-gradient(350deg, rgba(38,83,173,1) 12%, rgba(144,158,225,1) 86%);
+    color:#f8f8ff
+}
+#contactus p{
+    margin: 5px;
+}
+.btntab{
+    background-color: transparent;
+    border: none;
+    margin: 2px;
+    &:hover{
+        background-color: #fffafa;
+    }
 }

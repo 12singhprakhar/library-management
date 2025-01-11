@@ -278,7 +278,7 @@ let books = JSON.parse(localStorage.getItem('books')) || bookset;
 
 function saveBooks() {
   localStorage.setItem('books', JSON.stringify(books));
-  // bookset.push(books);
+  bookset.push(books);
 }
 
 
@@ -297,7 +297,6 @@ const addbookbtn = document.getElementById('addBook');
 const homebtn = document.getElementById('home');
 const contactbtn = document.getElementById('contact');
 const contactblock = document.getElementById('contactus');
-const genrebtn=document.getElementById('gen');
 
 
 function addBook() {
@@ -400,8 +399,8 @@ function renderBooks() {
                 <td><input type="number" id="editRating-${index}" value="${book.rating}"></td>
                 
                 <td>
-                    <button onclick="saveBook(${index})">Save</button>
-                    <button onclick="editBook(${index})">Cancel</button>
+                    <button class="btntab" onclick="saveBook(${index})"><i class="fa-solid fa-check fa-lg"></i></button>
+                    <button class="btntab" onclick="editBook(${index})"><i class="fa-solid fa-xmark fa-lg"></i></button>
                 </td>
             `;
     } else {
@@ -414,8 +413,8 @@ function renderBooks() {
                 <td>${book.genre}</td>
 
                 <td>
-                    <button onclick="editBook(${index})">Edit</button>
-                    <button onclick="deleteBook(${index})">Delete</button>
+                    <button class="btntab" onclick="editBook(${index})"><i class="fa-solid fa-pen-to-square fa-lg"></i></button>
+                    <button class="btntab" onclick="deleteBook(${index})"><i class="fa-solid fa-trash fa-lg"></i></button>
                 </td>
             `;
     }
@@ -495,8 +494,8 @@ contactbtn.addEventListener('click', (event) => {
 
 function borrow(index) {
   const bookborrow = books[index];
-  localStorage.setItem('borrowedBook', JSON.stringify(bookborrow));
-  window.location.href = "http://127.0.0.1:5500/borrow.html"
+  // localStorage.setItem('borrowedBook', JSON.stringify(bookborrow));
+  window.open("borrow.html");
 }
 
 function displaybooks(filterGenre='All') {
@@ -525,4 +524,3 @@ function filtergen(genre){
   displaybooks(genre);
 }
 displaybooks();
-
